@@ -1,0 +1,117 @@
+.table-view .select2-container {
+    width: 100% !important;
+}
+	
+.table-view .small {
+    font-size: 10px;
+}
+.table-view .round-box {
+    display: -webkit-box;
+    margin-bottom: 10px;
+    float: right;
+    display: flex;
+}
+.table-view .round-box label {
+    line-height: 35px;
+    font-size: 15px;
+}
+.table-view .round-box .toggle-ios .toggle-icon {
+    background-color: #488aff;
+}
+
+.table-view .round-box .toggle-ios .toggle-icon:before {
+    background-color: #488aff
+}
+			
+.table-view .round-box .toggle-ios.toggle-checked .toggle-icon {
+    background-color: #e6e6e6;
+}
+
+.table-view	table {
+    width: 100%;
+    font-size: 1.8rem;
+}
+
+.table-view	table tr {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+/* .table-view	table th {
+    display: none; 
+}
+
+.table-view	table td {
+    display: block;
+}  */
+
+.table-view	table td:first-child {
+    padding-top: .5em;
+}
+.table-view	table td:last-child {
+    padding-bottom: .5em;
+}
+
+.table-view table td:before {
+    content: attr(data-th)": ";
+    font-weight: bold;
+    width: 6.5em; 
+    display: inline-block;
+}
+
+@media (min-width: 320px) {
+    .table-view	table td:before {
+        display: none;
+    }
+}
+				
+.table-view	table td i {
+    color: green;
+}
+
+
+.table-view th, .table-view td {
+    text-align: left;
+}
+
+@media (min-width: 320px) {
+    .table-view th, .table-view td {
+        display: table-cell;
+        padding: .25em .5em;
+    }
+   
+    .table-view th:first-child, .table-view td:first-child {
+        padding-left: 0;
+    }
+
+    .table-view th:last-child, .table-view td:last-child {
+        padding-right: 0;
+    }
+}
+
+@media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px) {
+    .table-view th, .table-view td {
+        font-size: 12px
+    }
+}
+.swiper .swiper-slide .table-view div {
+    width: unset;   
+    font-size: 12px;
+}
+.table-view .select-boundaries {
+    z-index: 100;
+    border: 1px solid #ddd;
+    padding: 3px;
+}
+.filter-text {
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 740px) {
+    .table-view th, .table-view td {
+        font-size: 18px;
+    }
+}

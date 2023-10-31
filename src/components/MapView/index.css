@@ -1,0 +1,176 @@
+.map-view .round-box {
+    display: -webkit-box;
+    margin-top: 10px;
+    position: absolute;
+    z-index: 500;
+    bottom: 0;
+    left: 10px;
+    color: #fff;
+    text-shadow: 0px 0px 3px rgb(0,0,0);
+}
+
+.map-view .round-box {
+    display: flex;
+    margin-top: 10px;
+    position: absolute;
+    z-index: 500;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    text-shadow: 0px 0px 3px rgb(0,0,0);
+}
+.map-view .round-box label {
+    line-height: 35px;
+    font-size: 24px;
+}
+.map-view .round-box .toggle-ios .toggle-icon { 
+    background-color: #488aff;
+}
+
+.map-view .round-box .toggle-ios .toggle-icon:before {
+    background-color: #488aff
+}
+
+.map-view .round-box .toggle-ios .toggle-checked .toggle-icon {
+    background-color: #e6e6e6
+}
+
+.map-view .small {
+    /* font-size: 1rem; */
+    font-size: 10px;
+}
+
+.map-view .no-data {
+    padding-top: 150px;
+}
+.map-view i {
+    color: green;
+}
+
+.map-view .view-container .map {
+    height: 50vh;
+}
+
+.map-view .view-container .election-details {
+    bottom: 0;
+}
+
+.map-view .view-container .election-details > div{
+    padding-top: 10px;
+}
+
+.map-view .view-container .election-details .election-parties .party-card {
+    width: 60%;
+    height: 12px;
+    margin: auto;
+    margin-top: 2px;
+}
+
+.map-view .view-container .election-details .election-parties .small {
+    font-size: 8px;
+}
+
+.map-view .view-container .election-details .election-competitors {
+    font-size: 14px;
+	padding-top: 0;
+}
+
+.map-view .view-container .election-details .election-competitors ion-row {
+    margin-top: 70px;
+}
+
+.map-view .view-container .election-details .election-competitors ion-col {
+    padding: 0;
+}
+
+.map-view .view-container .election-details .election-competitors ion-col .card {
+    height: 20px;
+}
+
+.map-view .view-container .election-details .election-competitors ion-col .img-wrapper {
+    position:  absolute;
+    bottom:  0;
+    width:  100%;
+}
+		
+.map-view .view-container .election-details .election-competitors ion-col .img-wrapper a {
+    font-size: 10px;
+    line-height: 16px;
+    color: #fff;
+}
+
+.map-view .view-container .election-details .election-competitors ion-col .img-wrapper a span {
+    font-weight: bold;
+}
+			
+.map-view .view-container .election-details .election-competitors ion-col .img-wrapper span {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-left: 85px;
+    width: 100%;
+    text-align: left;
+    text-shadow: 2px 0px 3px rgba(0,0,0,0.5);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.map-view .view-container .election-details .election-competitors ion-col .img-wrapper span.votes {
+    bottom: 30px;
+}
+
+.map-view .view-container .election-details .election-competitors ion-col .img-wrapper img {
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    float: left;
+}
+
+.map-view .view-container .election-details .election-competitors ion-col:last-child {
+    border-right: 2px solid #000;
+}
+				
+.map-view .view-container .election-details .election-competitors ion-col:last-child .img-wrapper span {
+    text-align: right;
+    right: 0;
+    padding-left: 0;
+    padding-right: 85px;
+}
+
+.map-view .view-container .election-details .election-competitors ion-col:last-child .img-wrapper img {
+    float: right
+}
+			
+@media only screen 
+	and (max-width: 760px),(min-device-width: 768px) 
+	and (max-device-width: 1024px) {
+	.map-view .view-container .map {
+		height: 40vh;
+	}
+}
+@media only screen
+	and (min-device-width : 320px)
+	and (max-device-width : 480px) {
+	.map-view .view-container .map {
+		height: 45vh;
+	}
+
+	.map-view .election-details .election-competitors ion-col .img-wrapper span {
+		padding-left: 75px !important;
+	}
+	
+	.map-view .election-details .election-competitors ion-col .img-wrapper img {
+		width: 70px !important;
+		height: 70px !important;
+	}
+
+	.map-view .election-details .election-competitors ion-col:last-child .img-wrapper span {
+		padding-left: 0 !important;
+		padding-right: 75px !important;
+	}
+}
+
+.swiper .swiper-slide div {
+    width: unset;
+}

@@ -1,0 +1,150 @@
+.content-view .content.fullWidth {
+    flex: 0 0 100%!important;
+}
+	
+.content-view .viewModeToolbar {
+    padding: 0;
+    padding-bottom: 8px;
+    min-height: auto;
+}
+.content-view ion-toolbar {
+    align-items: center;
+}
+.content-view .viewModeToolbar ion-title {
+    padding: 10px;
+}
+
+.content-view {
+    --padding-left: 0px;
+    --padding-right: 0px;
+    --padding-bottom: 0px;
+    --padding-top: 0px;
+    padding: 0!important;
+}
+
+.content-view .viewModeToolbar .toolbar-background {
+    background: transparent;
+}
+		
+.content-view .viewModeToolbar .toolbar-title {
+    font-size: 2rem;
+}
+.content-view .viewModeToolbar .modeButton {
+    --background: #fff !important;
+    --padding-bottom: 5px;
+    --padding-top: 5px;
+    border: 2px solid #666 !important;
+    border-radius: 7px !important;
+    --color: #666 !important;
+    margin: 0 !important;
+    height: auto !important;
+    font-size: 14px !important;
+}
+
+.content-view .viewModeToolbar .modeButton.active {
+    --background: #666 !important;
+    --color: #fff !important;
+}
+
+.content-view .granularity-list {
+    left: 0;
+    /* position: absolute;
+    height: 100%; */
+    position: relative;
+    height: 800px;
+}
+.content-view .granularity-list	a {
+	cursor: pointer;
+}
+
+.content-view .granularity-list a .senate {
+    position: relative;
+    height: 25%;
+    margin: 0;
+    padding: 5px;
+}
+			
+.content-view .granularity-list a .senate .box {
+    position: relative;
+    height: 100%;
+}
+		
+.content-view .granularity-list a .senate .box h2 {
+    display: block;
+    padding: 5px;
+    margin: 0;
+    line-height: normal;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: #eee;
+    color: #333;
+    -webkit-box-shadow: inset 0 -3px 3px -2px rgba(50%,50%,50%,0.2);
+    -moz-box-shadow: inset 0 -3px 3px -2px rgba(50%,50%,50%,0.2);
+    -ms-box-shadow: inset 0 -3px 3px -2px rgba(50%,50%,50%,0.2);
+    -o-box-shadow: inset 0 -3px 3px -2px rgba(50%,50%,50%,0.2);
+    box-shadow: inset 0 -3px 3px -2px rgba(50%,50%,50%,0.2);
+}
+
+.content-view .granularity-list a .senate .box .box-content {
+    top: 35px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+				    
+.content-view .granularity-list a:first-child .senate {
+    padding-top: 0;
+}
+				
+.content-view .granularity-list a:first-child:hover .box {
+	box-shadow: 0 0 4px 1px rgba(0,155,255,1);
+}
+
+.content-view .content {
+    --padding-left: 0px;
+    --padding-right: 0px;
+    --padding-bottom: 0px;
+    --padding-top: 0px;
+    /* position: absolute;  */
+    right: 0
+}
+
+@media only screen 
+and (max-width: 760px),(min-device-width: 768px) 
+and (max-device-width: 1024px) {
+	.content-view .content {
+        left: 0;
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+        flex: 0 0 100%!important;   
+    }
+
+	.content-view .ion-title {
+		padding: 0;
+	}
+
+    .content-view .toolbar-title {
+        font-size: 1.5rem;
+    }
+}
+
+/* @media only screen 
+and (min-device-width: 768px) 
+{
+	.content-view .content {
+        flex: 0 0 100%!important;   
+        width: 100%;
+        max-width: 100%
+    }
+} */
+
+ion-toolbar ion-title {
+    text-align: center;
+}
+
+.ion-padding {
+    --padding-top: 0px!important;
+}

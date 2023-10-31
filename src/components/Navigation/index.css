@@ -1,0 +1,40 @@
+.navigation ion-content {
+    height: 100vh!important;
+}
+.menu-inner>ion-content, .menu-inner>ion-footer, .menu-inner>ion-header {
+    position: absolute;
+    top: 0px;
+}
+.menu-inner>ion-header {
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
+.menu-inner>ion-content {
+    top: 50px;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    z-index: 200;
+}
+.menu-inner ion-header ion-toolbar {
+    padding: 0 10px;
+}
+.menu-inner ion-header ion-toolbar ion-title {
+    padding: 0 40px 1px;
+}
+/* .menu-inner {
+    display: flex;
+}
+.menu-inner ion-header {
+    padding: 0 20px;
+}
+.bar-button-menutoggle-md, .bar-button-menutoggle-md {
+    margin: 0 2px;
+    -webkit-box-ordinal-group: 8;
+    -webkit-order: 7;
+    -ms-flex-order: 7;
+    order: 7;
+    min-width: 28px;
+} */

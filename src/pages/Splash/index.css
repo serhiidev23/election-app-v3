@@ -1,0 +1,38 @@
+.page-splash .swiper  {
+    padding-top: 20px;
+    height: 100%;
+}
+.page-splash .swiper-slide {
+    text-align: unset;
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+}
+
+.page-splash h4 {
+    font-weight: 600;
+}
+
+.page-splash a {
+    color: #fff;
+    line-height: 25px;
+}
+.page-splash ion-header ion-toolbar ion-title {
+    font-size: 20px;
+    font-weight: bold!important;
+}
+
+.swiper .swiper-slide {
+    justify-content: flex-start!important;
+    align-items: flex-start!important;
+}
+
+.swiper .swiper-slide div, .swiper .swiper-slide h4, .swiper .swiper-slide p {
+    width: 100%;
+}
+
+.swiper .swiper-slide ul li{
+   text-align: start;
+}
